@@ -12,39 +12,37 @@ The structure for the CSV files used by MiniCel follows a basic Excel-like forma
 
 # Features
 
-##  **Cell Referencing**: Refer to cells in your formulas using standard Excel-style references (e.g., A1, B2).
+ **Cell Referencing**: Refer to cells in your formulas using standard Excel-style references (e.g., A1, B2).
 
-## **Basic Formulas**: Perform basic calculations using built-in functions such as SUM, AVERAGE, etc.
+**Basic Formulas**: Perform basic calculations using built-in functions such as SUM, AVERAGE, etc.
 
-## **CSV File Support**: Save and load your MiniCel sheets in CSV format.
+**CSV File Support**: Save and load your MiniCel sheets in CSV format.
 
 # Examples
 
 ## Simple Calculation
 
-
-A | B | C
---+---+---
-1 | 2 | =SUM(A1:B1)
+| A | B | C       |
+|---|---|---------|
+| 1 | 2 | =SUM(A1:B1) |
 
 ### Result
 
-A | B | C
---+---+---
-1 | 2 | 3
+| A | B | C |
+|---|---|---|
+| 1 | 2 | 3 |
 
 ## Referencing Cells
 
-A | B | C
---+---+---
-1 | 2 | =A1 + B1
+| A | B | C       |
+|---|---|---------|
+| 1 | 2 | =A1 + B1 |
 
 ### Result
 
-A | B | C
---+---+---
-1 | 2 | 3
-
+| A | B | C |
+|---|---|---|
+| 1 | 2 | 3 |
 
 
 
